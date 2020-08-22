@@ -22,11 +22,13 @@ body {
     font-size: 48px;
     font-style: normal;
     font-weight: normal;
+    margin-bottom: 75px;
 }
 .cards{
     display: inline-flex;
     justify-content: center;
     width: 100%;
+
 }
 .card {
     width: 300px;
