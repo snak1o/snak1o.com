@@ -7,7 +7,7 @@
 }
 a{
     text-decoration: none;
-    color: #4100ab;
+    color: black;
 }
 body {
     background: url(/assets/img/bg.png) no-repeat;
@@ -48,7 +48,14 @@ body {
     font-size: 36px;
 }
 .link {
-    color: #4100ab;
+    color: black;
+}
+.link i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.link i:last-of-type{
+    margin: 0;
 }
 .profile{
     z-index: -999;
@@ -56,9 +63,17 @@ body {
     width: 100%;
     background: rgba(35, 34, 50, 0.2);
     padding: 10px 0 20px 0;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .works{
     font-weight: 300;
     font-size: 15px;
+    margin-bottom: 65px;
+}
+.btn{
+    padding: 10px 20px;
+    background: rgba(35, 34, 50, 0.2);
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
 }
