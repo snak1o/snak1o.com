@@ -1,18 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: Montserrat;
+    -webkit-user-drag: none;
+    
+    
+}
+a{
+    text-decoration: none;
+    color: #4100ab;
 }
 body {
-background: url(/assets/img/bg.png) no-repeat;
-background-size: cover;
+    background: url(/assets/img/bg.png) no-repeat;
+    background-size: cover;
 }
 
-.header{
+.header {
     margin: 50px 0 0 50px;
 }
-.header H1{
+.header H1 {
     font-family: 'Poiret One', cursive;
     font-size: 48px;
     font-style: normal;
     font-weight: normal;
+}
+
+.card {
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(180deg, #97D9E1 0%, rgba(217, 175, 217, 0.949249) 99.98%, rgba(255, 255, 255, 0.21) 99.99%, rgba(255, 255, 255, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
+    text-align: center;
+    position: relative;
+}
+.card img{
+    height: 200px;
+}
+.name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.link {
+    color: #4100ab;
 }
