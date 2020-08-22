@@ -10,7 +10,7 @@ a{
     color: black;
 }
 body {
-    background: url(/assets/img/bg.png) no-repeat;
+    background: url("./assets/img/bg.png") no-repeat;
     background-size: cover;
 }
 
@@ -23,7 +23,11 @@ body {
     font-style: normal;
     font-weight: normal;
 }
-
+.cards{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
 .card {
     width: 300px;
     height: 450px;
@@ -31,6 +35,7 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.35));
     text-align: center;
     position: relative;
+    margin-right: 35px;
 }
 .card__img{
     display: flex;
@@ -46,6 +51,7 @@ body {
 .name {
     font-weight: 300;
     font-size: 36px;
+    margin-bottom: 5px;
 }
 .link {
     color: black;
@@ -63,12 +69,12 @@ body {
     width: 100%;
     background: rgba(35, 34, 50, 0.2);
     padding: 10px 0 20px 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .works{
     font-weight: 300;
     font-size: 15px;
-    margin-bottom: 65px;
+    margin-bottom: 45px;
 }
 .btn{
     padding: 10px 20px;
