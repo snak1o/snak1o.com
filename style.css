@@ -3,8 +3,7 @@
     padding: 0;
     font-family: Montserrat;
     -webkit-user-drag: none;
-    
-    
+    user-select: none;
 }
 a{
     text-decoration: none;
@@ -26,6 +25,10 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 450px;
     background: linear-gradient(180deg, #97D9E1 0%, rgba(217, 175, 217, 0.949249) 99.98%, rgba(255, 255, 255, 0.21) 99.99%, rgba(255, 255, 255, 0) 100%);
@@ -35,16 +38,27 @@ body {
 }
 .card img{
     height: 200px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
 }
 
 .name {
-    font-family: Montserrat;
-    font-style: normal;
     font-weight: 300;
     font-size: 36px;
-    font-family: 'Montserrat', sans-serif;
-
 }
 .link {
     color: #4100ab;
+}
+.profile{
+    z-index: -999;
+    /* position: absolute; */
+    top: 185px;
+    width: 100%;
+    background: rgba(35, 34, 50, 0.2);
+    padding: 10px 0 20px 0;
+}
+.works{
+    font-weight: 300;
+    font-size: 15px;
 }
